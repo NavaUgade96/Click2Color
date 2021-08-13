@@ -242,7 +242,7 @@ const Buttons = ({ state }) => {
         <Grid item>
           <FormControlLabel
             control={<Switch name="checkedD" />}
-            style={{ backgroundColor: "#1ABC9C", color: "#F3F2FC" }}
+            style={{ backgroundColor: "#F3F2FC", color: "#F3F2FC" }}
             onClick={() =>
               dispatch({
                 type: "BACKCOLOR",
